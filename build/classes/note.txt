@@ -1,0 +1,18 @@
+springmvc如何处理静态资源:
+1.springmvc的配置文件
+	<mvc:default-servlet-handler></..>
+2.	<mvc:annotation-driven></mvc:annotation-driven>
+
+
+
+2 关于修改
+	1:完成
+	
+	
+	Converter<S,T>
+	ConverterFacotry
+	@NumberFormat 标注在pojo 的属性上面进行标注
+		1.pattern:自定义样式
+		2.style:NumberFormat.style
+	3.conversionService采用的是FormattingConversionService
+	
